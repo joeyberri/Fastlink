@@ -1,0 +1,23 @@
+@font-face {
+	font-family: Montserrat;
+	src: url("fonts/Montserrat-Medium.otf");
+	font-weight: normal;
+}
+
+.logo {width: 15vw; display:flex; justify-content:center; margin: 45px auto;height: auto;}
+.login {border-radius: 10px; height: auto; border-style: solid 2; background-color: white; display:flex; justify-content:center; padding: 10px; width: 30vw; margin-left:auto; margin-right:auto; 
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */}
+.form-control {caret-color: #2F174B; border-radius: 10px; border-width: 1px;padding:5px 10px; margin-bottom: 1.5vh; font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 15pt;}
+* {font-family: Montserrat;}
+h2 {color: #180B26; font-size:20pt;margin-top:5px; }
+.text-center, .hint-text {font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 20pt; }
+.headed {font-weight: bold; }
+
+.link {background-color: #2F174B; color: white; font-size: 15pt; cursor: pointer; padding:10px 40px; margin: 30px 0; border-style: none; border-radius: 10px; text-decoration: none; text-align: center;}
+.bunch-space {margin:50px 0;}
+
+button {background-color: #2F174B; color: white; font-size: 15pt; cursor: pointer; padding:10px 40px; margin: 30px 0; border-style: none; border-radius: 10px;} 
+button:hover,link:hover {background-color: #FF6E00;}
+body {background-color: #E7DAF6;}
